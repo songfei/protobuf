@@ -4,7 +4,7 @@
 
 part of protoc;
 
-final _dartIdentifier = RegExp(r'^\w+$');
+final _dartIdentifier = RegExp(r'^[A-Za-z0-9_<>]+$');
 final _formatter = DartFormatter();
 const String _protobufImportPrefix = r'$pb';
 const String _asyncImportPrefix = r'$async';
